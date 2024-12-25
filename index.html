@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barokallahu Fi Umrik</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="popup.css">
+    <script src="popup.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Barokallahu Fi Umrik, Adit!</h1>
+        </header>
+        <main>
+            <section class="profile-photo-section">
+                <img src="adit.jpg" alt="Foto Adit" class="profile-photo">
+            </section>
+            <section class="birthday-message">
+                <p>Semoga Allah SWT senantiasa memberikan keberkahan usia, kesehatan, dan kebahagiaan dalam hidupmu. 
+        </p>
+                <button onclick="showPopup()" class="aamiin-button">Aamiin</button>
+            </section>
+            <section class="gallery">
+                <h2>Memori bersama Adit</h2>
+                <div class="photo-grid">
+                    <img src="poto1.jpg" alt="Kenangan 1">
+                    <img src="poto2.jpg" alt="Kenangan 2">
+            
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Dibuat oleh mantan Editor kelas 12 IPA 5 tahun 2022.</p>
+        </footer>
+        <div id="popup" class="popup hidden">
+            <div class="popup-content">
+                <p>Semoga Adit yang kami kenal berbeda dengan Adit-Adit yg lain. 
+                    Dan semoga doa-doa yang baiknya diijabah sama Allah😊</p>
+                <button onclick="closePopup()" class="close-button">Aamiin</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
